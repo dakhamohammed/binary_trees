@@ -10,3 +10,12 @@
 * What are the different traversal methods to go through a binary tree
 * What is a complete, a full, a perfect, a balanced binary tree
 
+### Tasks:
+
+* **0. New node**
+  * Function that creates a binary tree node.
+    * Prototype: `binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);`
+    * Where `parent` is a pointer to the parent node of the node to create
+    * And `value` is the value to put in the new node
+    * When created, a node does not have any child
+
